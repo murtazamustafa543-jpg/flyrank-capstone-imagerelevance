@@ -1,10 +1,15 @@
-const Database = require("better-sqlite3");
-const createTables = require("./schema");
-const path = require("path");
+const express = require("express");
+const app = express();
+require("dotenv").config();
 
-const db = new Database(path.join(__dirname, "../../data/database.db"));
+app.use(express.json());
 
-db.exec("PRAGMA journal_mode=WAL;");
-db.exec(createTables);
+app.use("/ingest", require("./src/routes/ingest"));
+app.use("/posts", require("./src/routes/posts"));
+app.use("/suggestions", require("./src/routes/suggestions"));
 
-module.exports = db;
+app.get("/health", (req, res) => {
+  res.json({ status: "ok" });
+});
+
+app.listen(3000, () => console.log("Server running on http://localhost:3000"));
