@@ -1,0 +1,29 @@
+{
+  "name": "flyrank-capstone-imagerelevance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murtazamustafa543-jpg/flyrank-capstone-imagerelevance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/murtazamustafa543-jpg/flyrank-capstone-imagerelevance/issues"
+  },
+  "homepage": "https://github.com/murtazamustafa543-jpg/flyrank-capstone-imagerelevance#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "uuid": "^14.0.2",
+    "zod": "^4.6.5"
+  }
+}
