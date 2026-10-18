@@ -1,0 +1,52 @@
+[
+  {
+    "postTitle": "The Behavior of Red Foxes",
+    "postId": "e6b2a189-f5b7-4fa5-b4b7-f8de784c5c55",
+    "correctCategory": "fox"
+  },
+  {
+    "postTitle": "Gray Wolves: Apex Predators",
+    "postId": "8df9f8ba-ddf8-4b13-a293-3ea74ab8a275",
+    "correctCategory": "wolf"
+  },
+  {
+    "postTitle": "Man's Best Friend: Dogs",
+    "postId": "8178117b-414c-4edc-a175-e540a14ee9dd",
+    "correctCategory": "dog"
+  },
+  {
+    "postTitle": "Brown Bears in the Wild",
+    "postId": "81de5479-e644-4280-8411-c1794afd0a8d",
+    "correctCategory": "bear"
+  },
+  {
+    "postTitle": "Deer: Graceful Forest Animals",
+    "postId": "82af31d3-cdc9-4d2d-9ba0-0a566f63bd66",
+    "correctCategory": "deer"
+  },
+  {
+    "postTitle": "Fox Cubs: Early Life of Red Foxes",
+    "postId": "40ee141e-6e6e-46e8-a966-650b3b58362b",
+    "correctCategory": "fox"
+  },
+  {
+    "postTitle": "Wolf Pack Dynamics",
+    "postId": "e7e15668-0c00-4655-904f-e339f195ff0d",
+    "correctCategory": "wolf"
+  },
+  {
+    "postTitle": "Dog Breeds and Their Origins",
+    "postId": "3e760d8b-9c76-4f23-9f14-04ff2fb443f9",
+    "correctCategory": "dog"
+  },
+  {
+    "postTitle": "Bear Hibernation and Survival",
+    "postId": "17863452-9993-4c9f-8511-03a8b1b02acc",
+    "correctCategory": "bear"
+  },
+  {
+    "postTitle": "Antlers and Deer Behavior",
+    "postId": "b16c848f-54a0-416f-a45c-ac6c2a6f0823",
+    "correctCategory": "deer"
+  }
+]
